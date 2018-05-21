@@ -7,6 +7,9 @@ Technical Choices :
 1. Web API was built on top of Java Jersey Framework.
 2. Backend database was built on top of MySQL platform (please find attached MySQL schema generations scripts).
 
+Why did I Choose to build this WebAPI by using Java Jersey Framework and MySQL as the backend database?
+Because I've been already quite familiar with this both platform.
+
 How to test the Web API using POSTMAN
 
 1. As a user, I need an API to create a friend connection between two email addresses.
@@ -32,3 +35,6 @@ http://ec2-52-77-226-121.ap-southeast-1.compute.amazonaws.com:8080/FriendManagem
 6. As a user, I need an API to retrieve all email addresses that can receive updates from an email address.
 Send the POST REQUEST to this following URL:
 http://ec2-52-77-226-121.ap-southeast-1.compute.amazonaws.com:8080/FriendManagement/REST/Subscription/RetrieveSubscriptionUpdates
+
+Why did I choose to host in Amazon Web Services (AWS) Cloud?
+Because it provided the FREE TIER for 12 months for its Elastic Computing EC2 service. :)
